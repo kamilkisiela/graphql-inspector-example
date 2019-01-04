@@ -3,7 +3,7 @@ type Post {
   title: String @deprecated(reason: "No more used")
   createdAt: String
   modifiedAt: String
-  removedAt: Int
+  removedAt: DateTime
 }
 
 type Query {
