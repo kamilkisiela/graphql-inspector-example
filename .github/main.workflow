@@ -1,14 +1,14 @@
-workflow "Check commit" {
+workflow "On Push" {
   on = "push"
-  resolves = "GraphQL"
+  resolves = "Check GraphQL"
 }
 
-workflow "Check Pull Request" {
+workflow "On Pull Request" {
   on = "pull_request"
-  resolves = "GraphQL"
+  resolves = "Check GraphQL"
 }
 
-action "GraphQL" {
+action "Check GraphQL" {
   uses = "kamilkisiela/graphql-inspector@actions"
   secrets = ["GITHUB_TOKEN"]
 }
