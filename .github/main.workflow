@@ -1,5 +1,10 @@
-workflow "Main" {
-  on = ["push", "pull_request"]
+workflow "Check commit" {
+  on = "push"
+  resolves = "GraphQL"
+}
+
+workflow "Check Pull Request" {
+  on = "pull_request"
   resolves = "GraphQL"
 }
 
