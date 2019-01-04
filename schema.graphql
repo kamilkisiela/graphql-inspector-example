@@ -7,6 +7,6 @@ type Post {
 }
 
 type Query {
-  post: Post!
+  post: Post! @deprecated(reason: "No more used")
   posts: [Post!]
 }
