@@ -1,3 +1,5 @@
+directive @log(message: String = "No message") on FIELD
+
 type Post {
   id: ID
   title: String @deprecated(reason: "No more used")
