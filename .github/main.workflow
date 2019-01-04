@@ -4,6 +4,6 @@ workflow "Main" {
 }
 
 action "GraphQL Inspector" {
-  uses = "kamilkisiela/graphql-inspector@master"
+  uses = "kamilkisiela/graphql-inspector@actions"
   secrets = ["GITHUB_TOKEN"]
 }
