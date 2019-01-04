@@ -1,4 +1,4 @@
-directive @log(message: String = "Default message") on FIELD
+directive @log(message: String = "A default message") on FIELD
 
 type Post {
   id: ID
