@@ -5,7 +5,7 @@ const Post = `
     id: ID
     title: String @deprecated(reason: "No more used")
     createdAt: String
-    modifiedAt: String
+    removedAt: String
   }  
 `;
 
