@@ -9,6 +9,6 @@ workflow "On Pull Request" {
 }
 
 action "Check GraphQL" {
-  uses = "kamilkisiela/graphql-inspector@actions"
+  uses = "kamilkisiela/graphql-inspector@master"
   secrets = ["GITHUB_TOKEN"]
 }
