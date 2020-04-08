@@ -1,4 +1,7 @@
 type Post {
+  """
+  Base64
+  """
   id: ID
   title: String
   createdAt: String
