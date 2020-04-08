@@ -12,6 +12,6 @@ type Post {
 Describe Query
 """
 type Query {
-  post: Post!
+  post(id: ID): Post!
   posts: [Post!]
 }
