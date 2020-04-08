@@ -4,6 +4,9 @@ type Post {
   createdAt: String
 }
 
+"""
+Describe Query
+"""
 type Query {
   post: Post!
   posts: [Post!]
