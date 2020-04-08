@@ -1,6 +1,6 @@
 type Post {
   """
-  Base64
+  123
   """
   id: ID
   title: String
