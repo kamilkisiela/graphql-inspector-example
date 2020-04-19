@@ -1,6 +1,6 @@
 type Post {
   """
-  125
+  126
   """
   id: ID
   title: String
