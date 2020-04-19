@@ -6,6 +6,7 @@ type Post {
   title: String
   createdAt: String
   modifiedAt: String
+  updatedAt: String
 }
 
 """
