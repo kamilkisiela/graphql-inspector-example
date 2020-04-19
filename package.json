@@ -13,9 +13,6 @@
   },
   "graphql-inspector": {
     "branch": "master",
-    "schema": "schema.graphql",
-    "diff": {
-      "annotations": false
-    }
+    "schema": "schema.graphql"
   }
 }
