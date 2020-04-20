@@ -11,7 +11,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - uses: kamilkisiela/graphql-inspector@master
+    - uses: kamilkisiela/graphql-inspector@36111899d4e07cbe27251fad30a287aff0977184
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:

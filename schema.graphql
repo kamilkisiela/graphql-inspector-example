@@ -1,11 +1,17 @@
 type Post {
+  """
+  127
+  """
   id: ID
-  title: String @deprecated(reason: "No more used")
+  title: String
   createdAt: String
   modifiedAt: String
 }
 
+"""
+Describe Query
+"""
 type Query {
-  post: Post!
+  post(id: ID): Post!
   posts: [Post!]
 }
