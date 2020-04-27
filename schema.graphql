@@ -3,7 +3,6 @@ type Post {
   126
   """
   id: ID
-  title: String
   createdAt: String
   modifiedAt: String
   updatedAt: String
